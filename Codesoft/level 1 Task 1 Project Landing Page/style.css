@@ -1,0 +1,251 @@
+* {
+
+
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        justify-content: space-between;
+        height: 50px;
+
+}
+
+.logo {
+        height: 70px;
+        width: 50px;
+
+
+}
+
+.logoname {
+        display: flex;
+        color: #000;
+
+}
+
+header h1 {
+        font-size: 30px;
+
+}
+
+
+ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 30px;
+        margin: 20px;
+        cursor: pointer;
+}
+
+ul a {
+        text-decoration: none;
+        color: rgb(9, 104, 75);
+        background: #fff;
+        padding: 4px;
+        border-radius: 40px;
+}
+
+ul a:hover {
+        color: #fff;
+        background: rgb(9, 104, 75);
+}
+
+.heroimg {
+        height: 570px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("heroimage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: antiquewhite;
+        background-position: bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.herotext {
+        color: aliceblue;
+        text-align: center;
+}
+
+.herotext h1 {
+        font-size: 70px;
+        padding-bottom: 20px;
+}
+
+.herotext p {
+        font-size: 20px;
+}
+
+button {
+        color: #fff;
+        background: #000;
+        border-radius: 88px;
+        padding: 6px 20px;
+        cursor: pointer;
+
+}
+
+section button {
+        margin-top: 30px;
+}
+
+button:hover {
+        background-color: #fff;
+        color: #000;
+}
+
+main h1 {
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+        font-size: 35px;
+
+}
+
+main>p {
+        display: flex;
+        justify-content: center;
+        margin: 20px 200px;
+        font-size: 23px;
+
+}
+
+.container {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 6px;
+}
+
+.card {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 24px;
+        flex-direction: row;
+        border: 2px solid black;
+        height: 370px;
+        width: 260px;
+        border-radius: 8px;
+}
+
+.card:hover {
+
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: zoom 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes zoom {
+        from {}
+
+        to {
+                padding: 15px;
+        }
+
+}
+
+img {
+        height: 170px;
+        padding: 2px;
+        border-radius: 9px;
+}
+
+.card h2 {
+        font-size: 20px;
+        margin-left: 19px;
+}
+
+.card p {
+
+        margin-left: 13px;
+}
+
+
+.card button {
+
+        margin-left: 13px;
+
+        background-color: rgb(2, 110, 74);
+        cursor: pointer;
+
+}
+
+#line1 {
+
+        margin: 80px 530px;
+        border: 2px solid black;
+}
+
+#line2 {
+
+        margin: 80px 630px;
+        border: 2px solid black;
+}
+
+pre {
+
+        display: flex;
+        justify-content: center;
+        padding-top: 23px;
+
+}
+
+.form {
+        padding: 50px;
+}
+
+.form button {
+
+        margin-left: 15px;
+}
+
+input {
+        display: block;
+        padding: 2;
+}
+
+.foot {
+        padding-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.foot ul {
+        text-decoration: none;
+        display: inline;
+        cursor: pointer;
+
+}
+
+.foot li {
+
+        padding: 6px;
+}
+
+.foot p {
+        padding: 10px;
+}
+
+.foot img {
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        padding-left: 23px;
+
+}
+
+footer {
+
+        background: rgb(2, 110, 74);
+}
